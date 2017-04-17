@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'babel-runtime/helpers/interop-require' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData babel-runtime/helpers/interop-require
+8 silly fetchOtherPackageData babel-runtime/helpers/interop-require
+9 silly cache add args [ 'babel-runtime/helpers/interop-require', null ]
+10 verbose cache add spec babel-runtime/helpers/interop-require
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'babel-runtime/helpers/interop-require',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'babel-runtime/helpers/interop-require',
+11 silly cache add   spec: 'F:\\传智22期前端就业班\\day077-vue-day03\\08.webpack.vue\\p-webpack.vue\\src\\babel-runtime\\helpers\\interop-require',
+11 silly cache add   type: 'local' }
+12 error addLocal Could not install F:\传智22期前端就业班\day077-vue-day03\08.webpack.vue\p-webpack.vue\src\babel-runtime\helpers\interop-require
+13 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'F:\传智22期前端就业班\day077-vue-day03\08.webpack.vue\p-webpack.vue\src\babel-runtime\helpers\interop-require'
+13 silly fetchPackageMetaData     at Error (native)
+13 silly fetchPackageMetaData  error for babel-runtime/helpers/interop-require { Error: ENOENT: no such file or directory, open 'F:\传智22期前端就业班\day077-vue-day03\08.webpack.vue\p-webpack.vue\src\babel-runtime\helpers\interop-require'
+13 silly fetchPackageMetaData     at Error (native)
+13 silly fetchPackageMetaData   errno: -4058,
+13 silly fetchPackageMetaData   code: 'ENOENT',
+13 silly fetchPackageMetaData   syscall: 'open',
+13 silly fetchPackageMetaData   path: 'F:\\传智22期前端就业班\\day077-vue-day03\\08.webpack.vue\\p-webpack.vue\\src\\babel-runtime\\helpers\\interop-require' }
+14 silly rollbackFailedOptional Starting
+15 silly rollbackFailedOptional Finishing
+16 silly runTopLevelLifecycles Finishing
+17 silly install printInstalled
+18 verbose stack Error: ENOENT: no such file or directory, open 'F:\传智22期前端就业班\day077-vue-day03\08.webpack.vue\p-webpack.vue\src\babel-runtime\helpers\interop-require'
+18 verbose stack     at Error (native)
+19 verbose cwd F:\传智22期前端就业班\day077-vue-day03\08.webpack.vue\p-webpack.vue\src
+20 error Windows_NT 6.1.7601
+21 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "babel-runtime/helpers/interop-require"
+22 error node v6.9.5
+23 error npm  v3.10.10
+24 error path F:\传智22期前端就业班\day077-vue-day03\08.webpack.vue\p-webpack.vue\src\babel-runtime\helpers\interop-require
+25 error code ENOENT
+26 error errno -4058
+27 error syscall open
+28 error enoent ENOENT: no such file or directory, open 'F:\传智22期前端就业班\day077-vue-day03\08.webpack.vue\p-webpack.vue\src\babel-runtime\helpers\interop-require'
+29 error enoent ENOENT: no such file or directory, open 'F:\传智22期前端就业班\day077-vue-day03\08.webpack.vue\p-webpack.vue\src\babel-runtime\helpers\interop-require'
+29 error enoent This is most likely not a problem with npm itself
+29 error enoent and is related to npm not being able to find a file.
+30 verbose exit [ -4058, true ]

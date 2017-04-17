@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box">
+        {{time}} <br> num: <input type="text" v-model="num"><br> unit: <input type="text" v-model="unit">
+    </div>
+</body>
+<script src="./node_modules/vue/dist/vue.js"></script>
+<script>
+    var vm = new Vue({
+        el: "#box",
+        data: {
+            time: "11年"
+        },
+        computed: {
+            num: {
+                get() {
+                    return this.time.slice(0, this.time.length - 1);
+                },
+                set(mynum) {
+                    this.time = mynum + this.unit;
+                }
+            },
+            unit: {
+                get() {
+                    return this.time.slice(this.time.length - 1, this.time.length);
+                },
+                set(myunit) {
+                    this.time = this.num + myunit;
+                }
+            }
+        }
+    })
+</script>
+
+</html>
